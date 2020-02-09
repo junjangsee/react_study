@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 const Container = styled.div`
   font-size: 32px;
@@ -11,6 +12,10 @@ const Container = styled.div`
 function Navbar({ title }) {
   //   console.log(props)
   return <Container>{title}</Container>
+}
+
+Navbar.propTypes = {
+  title: PropTypes.string,
 }
 
 export default Navbar
