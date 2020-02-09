@@ -19,7 +19,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint '**/*.{js,ts,tsx}'",
     "prettier": "prettier --write \"**/*.{js,json,ts,tsx}\"",
-    "docs": "start-storybook"
+    "docs": "start-storybook",
+    "deploy-docs": "storybook-to-ghpages"
   },
   "eslintConfig": {
     "extends": "react-app"
