@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Navbar from './navbar'
+import GlobalStyles from './global-styles'
 
 // 스타일 컴포넌트
 /*
@@ -46,6 +47,7 @@ function App() {
 
   return (
     <div>
+      <GlobalStyles />
       <Navbar title={title} />
     </div>
   )
