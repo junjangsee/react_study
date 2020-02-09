@@ -8,9 +8,9 @@ const Container = styled.div`
   border: 1px solid #efefef;
 `
 
-// function Navbar({ title }) {
-//   //   console.log(props)
-//   return <Container>{title}</Container>
-// }
+function Navbar({ title }) {
+  //   console.log(props)
+  return <Container>{title}</Container>
+}
 
-// export default Navbar
+export default Navbar
