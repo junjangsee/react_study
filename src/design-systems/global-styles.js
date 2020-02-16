@@ -1,9 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
 
-// 여러개 보낼 떄
-// export const GlobalStyle = createGlobalStyle`
-
-// 하나만 보낼 때
 export default createGlobalStyle`
   html,
   body,
