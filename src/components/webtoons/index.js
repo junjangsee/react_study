@@ -3,16 +3,10 @@ import { Container, Text } from '../../design-systems'
 
 import styled from 'styled-components'
 
-const Badge = styled.div`
-  border-radius: 50%;
+const Badge = styled(Text)`
   position: absolute;
-  top: -9px;
-  right: -13px;
-  background: #ff0038;
-  color: #fff;
-  font-weight: bold;
-  padding: 6px;
-  text-align: center;
+  right: 0;
+  top: 0;
 `
 
 function Webtoons() {

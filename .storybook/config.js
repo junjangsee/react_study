@@ -1,6 +1,6 @@
 import { configure } from '@storybook/react'
 
-// ../src/design-system/*.stories.js
+// ../src/design-systems/*.stories.js
 
 configure(
   require.context('../src/design-systems', true, /\.stories\.js$/),
