@@ -9,6 +9,7 @@ import ErrorPage from './pages/error'
 import BoxPage from './pages/box'
 import Webtoon from './pages/webtoon'
 import PokemonPage from './pages/pokemon'
+import Todo from './pages/todo'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/box" component={BoxPage} />
           <Route path="/webtoon" component={Webtoon} />
           <Route path="/pokemon" component={PokemonPage} />
+          <Route path="/todo" component={Todo} />
           <Route component={ErrorPage} />
         </Switch>
       </Container>

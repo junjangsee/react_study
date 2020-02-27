@@ -20,6 +20,7 @@ const Links = [
   { path: '/box', label: 'box' },
   { path: '/webtoon', label: 'webtoon' },
   { path: '/pokemon', label: 'pokemon' },
+  { path: '/todo', label: 'todo' },
 ]
 
 function Navbar({ title }) {

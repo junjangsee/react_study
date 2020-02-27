@@ -8,7 +8,7 @@ function Pokemon() {
   return (
     <div>
       <Detail selectedPokemon={selectedPokemon} />
-      <List onChange={setSelectedPokemon} />
+      <List onChange={setSelectedPokemon} selectedPokemon={selectedPokemon} />
     </div>
   )
 }
